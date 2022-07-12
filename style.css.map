@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,IAAI,CAAC;EACD,WAAW,ECHH,SAAS,EAAE,UAAU;CDIhC",
+    "sources": [
+        "style.scss",
+        "_variables.scss",
+        "_mixins.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
