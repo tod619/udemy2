@@ -108,4 +108,64 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
 }
+
+.bar {
+  min-height: 5rem;
+  background: #741d51;
+  color: #fff;
+  background: -webkit-gradient(linear, left top, right top, from(#741d51), to(#e44e52));
+  background: linear-gradient(to right, #741d51 0%, #e44e52 100%);
+}
+
+.bar .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1.5rem 0;
+}
+
+@media (min-width: 1000px) {
+  .bar .icons {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media (min-width: 1000px) {
+  .bar .icon {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333%;
+            flex: 0 0 33.333%;
+  }
+}
+
+.bar .icon.icon1 {
+  background-repeat: no-repeat;
+  background-position: left center;
+  text-align: center;
+  background-size: 2.4rem;
+  background-image: url(img/icon1.png);
+}
+
+.bar .icon.icon2 {
+  background-repeat: no-repeat;
+  background-position: left center;
+  text-align: center;
+  background-size: 2.4rem;
+  background-image: url(img/icon2.png);
+}
+
+.bar .icon.icon3 {
+  background-repeat: no-repeat;
+  background-position: left center;
+  text-align: center;
+  background-size: 2.4rem;
+  background-image: url(img/icon3.png);
+}
 /*# sourceMappingURL=style.css.map */
