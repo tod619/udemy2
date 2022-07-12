@@ -67,6 +67,9 @@ body {
 
         form {
             position: relative;
+            @include tablet(){
+                width: 40%;
+            }
 
             input[type="text"] {
                     width: 100%;
