@@ -190,3 +190,41 @@ img {
 
     }
 }
+
+.footer {
+    border-top: 1px solid darken($gray, 10%);
+    margin-top: 1rem;
+    padding-top: 2rem;
+
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+
+        @include tablet {
+            flex-direction: row;
+        }
+    }
+}
+
+.menu {
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    flex: 1;
+
+    @include desktop {
+        flex: 0 0 calc(30% - 1rem);
+    }
+
+    a {
+        color: #000;
+        text-decoration: none;
+        margin-bottom: 0.5rem;
+        text-align: center;
+
+        @include desktop {
+            text-align: left;
+        }
+    }
+}
