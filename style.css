@@ -47,7 +47,8 @@ img {
   position: absolute;
   right: 0;
   padding: 1rem;
-  max-width: 400px;
+  width: 400px;
+  background-color: #fff;
 }
 
 .cart-content:hover .content .button {
